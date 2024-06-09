@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background: url('blind.jpeg') no-repeat center center fixed; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    background-color: rgba(76, 175, 80, 0.9);
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+section {
+    margin-bottom: 2em;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1{
+    margin-top: 0;
+    color: #ffffff;
+}
+h2 {
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    color: #4CAF50;
+}
+ul {
+    padding-left: 1.5em;
+}
+.feature {
+    background-color: #e0e0e0;
+}
+.button-container {
+    text-align: center;
+    margin: 2em 0;
+}
+.navigate-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.navigate-button:hover {
+    background-color: #45a049;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+    }
+    .navigate-button {
+        width: 100%;
+        padding: 1em;
+        font-size: 1em;
+    }
+}

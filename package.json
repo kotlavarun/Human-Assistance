@@ -1,0 +1,19 @@
+{
+  "name": "hack3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
